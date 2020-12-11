@@ -1,16 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="icon" type="image/svg" href="Images/Banner1.svg"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <title>Document</title>
-</head>
+<html>
+<title>Main</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="icon" type="image/svg" href="Images/Banner1.svg"/>
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
 <body>
-    hi
-    <embed name="Lol" src="second.mp3" loop="true" hidden="true" autostart="true"> 
+
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button" style="padding: 0px;"><img src="Images/Logo.svg" alt="image/svg" width="43px"></a>
+
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#project" class="w3-bar-item w3-button">Projects</a>
+    </div>
+  </div>
+</div>
+
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="Images/Banner4.svg">
+</header>
+
+<div class="w3-content" style="max-width:1100px">
+
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="Images/poster.svg" class="w3-round w3-image w3-opacity-min"width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">About Me</h1><br>
+      <h5 class="w3-center">Being bullied since 1995</h5>
+      <p class="w3-large">
+          Was born in the Great Britain. and am 25... Was and still am bad at english, tho I do like Math and Science. Social studies is fine but i don't recomend it. I would rather like under a rock than study any language. Und Ich Kann deutsch Sprechen! Yea I took German instead of french cause I am an idiot. I like saying<span class="w3-tag w3-light-grey">Nerd</span> a lot.
+      </p>
+      <p class="w3-large w3-text-grey w3-hide-medium">
+          Tho I still wish, I could learn french some day. I like to go mountain climbing and I did buy a paramotor, so am going to fly in that one day say "Hi" to me when I will be flying over you, Nerd. And yea I learned some coding and am going to release my first project lmao. Which I made a Year ago.<br>
+          There are thing that haunt me... The worst thing is pinapple on pizza... sometimes i just start to think that it is kind of good. It is like I get possesed... jk Nerd! I like to joke a lot even when it is not funny so don't bully me and I haven't spent hour trying to come up with something to write here in the perfect order...
+      </p>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <div class="w3-row w3-padding-64" id="project">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Recent Projects</h1><br>
+      <h4>2D Player Controller</h4>
+      <p class="w3-text-grey">A 2D player Controll Which I made a while a while ago(A year nerd)... Project file are available for download on my Github Page. There is Air resistence when player crouches and jumps at the same time. I will try to update and add more things into the mix but for now it can do basic stuff.
+          <br>P.S. It may be the worst Player controller possible but it works and I really dont know of any Bugs if they exist...
+          <br><a href="PlayerController2D.cs">Download Link-1</a>&nbsp;&nbsp;<a href="CrouchCheck.cs">Download Link-2</a>
+        </p><br> 
+      <h4>Blog Update-1</h4>
+      <p class="w3-text-grey">I will try to update you guys whenever possible but i am lazy so probably I wont yea... I am currently working on the improving the player controller lmao
+          <br>I will do more these Blog updates
+      </p><br>
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <video src="Project.mp4" width="100%" controls></video><br>
+      <div style="text-align: center;"><img src="Images/download.png" alt="Update Pic"></div>
+    </div>
+  </div>
+
+  <hr>
+  
+</div>
+
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Made with W3.css by &#169;TheIncorrectCompany</p>
+</footer>
+
 </body>
 </html>
