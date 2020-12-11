@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="700.0px"
+   height="700.0px"
+   viewBox="0 0 700.0 700.0"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="Banner1.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <defs
+     id="defs247" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="400"
+     inkscape:cy="560"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="true"
+     inkscape:window-width="1267"
+     inkscape:window-height="728"
+     inkscape:window-x="52"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid256" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata250">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ff0000"
+       id="rect90"
+       width="280"
+       height="280"
+       x="30"
+       y="200.00002" />
+    <rect
+       style="fill:#000080"
+       id="rect92"
+       width="480"
+       height="200"
+       x="190"
+       y="320" />
+    <circle
+       style="fill:#d35f5f"
+       id="path94"
+       cx="572.85718"
+       cy="274.28571"
+       r="120" />
+    <path
+       sodipodi:type="spiral"
+       style="fill:#00ffff;fill-rule:evenodd;stroke:#000000"
+       id="path106"
+       sodipodi:cx="150"
+       sodipodi:cy="360"
+       sodipodi:expansion="2"
+       sodipodi:revolution="10"
+       sodipodi:radius="160"
+       sodipodi:argument="-18.849556"
+       sodipodi:t0="0"
+       d="m 150,360 c 0.0444,0 0.01,0.0875 0,0.1 -0.1123,0.14299 -0.32704,0.0146 -0.4,-0.1 -0.21985,-0.34534 0.0757,-0.76236 0.4,-0.9 0.68488,-0.29067 1.39545,0.25739 1.6,0.9 0.36017,1.1315 -0.53021,2.22758 -1.6,2.5 -1.68608,0.42936 -3.25921,-0.89405 -3.6,-2.5 -0.49849,-2.34907 1.3489,-4.49054 3.6,-4.9 3.12067,-0.56762 5.9217,1.89474 6.4,4.9 0.63678,4.00102 -2.53159,7.55273 -6.4,8.1 -4.99017,0.70597 -9.38368,-3.25946 -10,-8.1 -0.77517,-6.08818 4.07836,-11.41458 10,-12.1 7.29507,-0.8444 13.64542,4.98828 14.4,12.1 0.91364,8.61085 -5.98923,16.07624 -14.4,16.9 -10.03553,0.9829 -18.70702,-7.08123 -19.6,-16.9 -1.05216,-11.56914 8.26426,-21.53779 19.6,-22.5 13.21166,-1.12144 24.56854,9.53834 25.6,22.5 1.19073,14.96312 -10.90346,27.79928 -25.6,28.9 -16.8235,1.26002 -31.23001,-12.35962 -32.4,-28.9 -1.32932,-18.79282 13.90683,-34.86072 32.4,-36.1 20.87107,-1.39863 38.69143,15.54509 40,36.1 1.46794,23.05826 -17.27439,42.72214 -40,44.1 -25.35438,1.53725 -46.95283,-19.09475 -48.4,-44.1 -1.606567,-27.75945 21.00615,-51.38352 48.4,-52.9 30.27346,-1.67589 56.01421,23.0086 57.6,52.9 1.74521,32.89641 -25.10211,60.84489 -57.6,62.5 -35.6283,1.81454 -65.875575,-27.28666 -67.6,-62.5 -1.883864,-38.46913 29.56227,-71.10625 67.6,-72.9 41.41891,-1.95319 76.53693,31.92892 78.4,72.9 2.02253,44.47763 -34.38663,82.1676 -78.4,84.1 -47.64529,2.09186 -87.99827,-36.93539 -90,-84.1 -2.161195,-50.9219 39.575202,-94.02894 90,-96.1 54.30745,-2.23053 100.2596,42.30606 102.4,96.1 2.29987,57.80195 -45.12798,106.69027 -102.39999,108.9 C 88.59461,471.26921 36.679066,420.85905 34.4,360.00001 31.961452,294.88222 85.444966,239.8484 149.99999,237.5 218.93911,234.99211 277.18226,291.64004 279.6,359.99999 282.17723,432.86938 222.27384,494.41292 150.00001,496.9 73.091397,499.54657 8.1564225,436.29666 5.6,360.00001 2.8840832,278.94323 69.571567,210.52576 149.99999,207.9 235.31388,205.11474 307.30489,275.33085 310,359.99999" />
+  </g>
+</svg>
