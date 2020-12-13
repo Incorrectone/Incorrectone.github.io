@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg,rgb(0, 217, 255),rgb(4, 187, 233),rgb(85, 2, 179)) 0 0 / 1000% no-repeat;
+    animation: thirdanim 15s ease infinite;
+}
+.content{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);  
+    text-transform: uppercase;  
+    margin: 0;
+}
+.box div{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border: 6px solid rgba(255,255,255,0.8);
+}
+.box div:nth-child(1){
+    top: 12%;
+    left: 42%;
+    animation: animate 14s linear infinite;
+}
+.box div:nth-child(2){
+    top: 80%;
+    left: 52%;
+    animation: animate 9s linear infinite;
+}
+.box div:nth-child(3){
+    top: 20%;
+    left: 12%;
+    animation: animate 12s linear infinite;
+}
+.box div:nth-child(4){
+    top: 60%;
+    left: 92%;
+    animation: animate 11s linear infinite;
+}
+.box div:nth-child(5){
+    top: 32%;
+    left: 51%;
+    animation: animate 15s linear infinite;
+}
+.box div:nth-child(6){
+    top: 10%;
+    left: 72%;
+    animation: animate 15s linear infinite;
+}
+.box div:nth-child(7){
+    top: 37%;
+    left: 76%;
+    animation: animate 10s linear infinite;
+}
+.box div:nth-child(8){
+    top: 1%;
+    left: 2%;
+    animation: animate 19s linear infinite;
+}
+.box div:nth-child(9){
+    top: 85%;
+    left: 16%;
+    animation: animate 16s linear infinite;
+}
+.box div:nth-child(10){
+    top: 91%;
+    left: 72%;
+    animation: animate 15s linear infinite;
+}
+.box div:nth-child(11){
+    top: 71%;
+    left: 6%;
+    animation: animate 10s linear infinite;
+}
+
+.container{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+}
+.line{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: linear-gradient(45deg,rgb(72, 255, 0),rgb(255, 145, 1),rgb(2, 179, 140)) 0 0 / 1000% no-repeat;
+    animation: thirdanim 15s ease infinite;
+}
+.mid-text{
+    position: absolute;
+    z-index: 99;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.mid-text h2{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+}
+.line-1{
+    z-index: 15;
+    opacity: 0.5;
+}
+.line-2{
+    z-index: 10;
+    opacity: 0.7;
+}
+.line-3{
+    z-index: 5;
+}
+.wave{
+    position: absolute;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background-repeat: repeat no-repeat;
+    background-position: 0 bottom;
+    transform-origin: center bottom;
+}
+.wave1{
+    -webkit-background-size: 50% 80px;
+    background-size: 50% 80px;
+}
+.wave2{
+    -webkit-background-size: 50% 100px;
+    background-size: 50% 100px;
+    animation: secondanim 12s linear infinite;
+}
+.wave3{
+    -webkit-background-size: 50% 80px;
+    background-size: 50% 80px;
+    animation: secondanim 20s linear infinite;
+}
+
+.column {
+    float: left;
+    width: 42%;
+    padding: 10px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;    
+}
+.row a{
+    text-decoration: none;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.wrapped{
+    background-image: url("Images/odd.svg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: repeat-y;
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    animation: fifthanim 100s linear infinite;
+}
+.holder{
+    width: 700px;
+    height: 400px;
+    background: inherit;
+    position: absolute;
+    overflow: hidden;
+    top: 45%;
+    left: 50%;
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
+}
+.holder:before{
+    width: 700px;
+    height: 400px;
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: -25px;
+    bottom: 0;
+    right: 0;
+    background: inherit;
+    box-shadow: inset 0 0 0 100px rgba(70, 70, 70, 0.2);
+    filter: blur(10px);
+}
+.img-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 600px;
+    color: white;
+    font-weight: bolder;
+    font-size: 13px;
+}
+.img-text h2{
+    color: rgb(117, 4, 4);
+    font-family: 'Raleway', sans-serif;
+    margin: 15px;
+    font-size: 27px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+
+@keyframes animate{
+    0%{
+        transform: scale(0) translateY(0) rotate(0);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(2) translateY(-90px) rotate(360deg);
+        opacity: 0;
+    }
+}
+@keyframes secondanim{
+    0%{
+        transform: translateX(0) translateZ(0) scale(1);
+    }
+    50%{
+        transform: translateX(-25%) translateZ(0) scale(0.5);
+    }
+    0%{
+        transform: translateX(-50%) translateZ(0) scale(1);
+    }
+}
+@keyframes thirdanim{
+    0%{
+        background-position: 0 30%, 0 0;
+    }
+    50%{
+        background-position: 100% 70%, 0 0;
+    }
+    0%{
+        background-position: 0 30%, 0 0;
+    }
+}
+@keyframes fourthanim{
+    0%{
+        background-position: 0 30%, 0 0;
+    }
+    50%{
+        background-position: 100% 70%, 0 0;
+    }
+    0%{
+        background-position: 0 30%, 0 0;
+    }
+}
+@keyframes fifthanim {
+    100%{
+     background-position:0px -3000px;
+   }
+ }

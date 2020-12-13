@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/svg" href="Images/Banner1.svg"/>
+<link rel="stylesheet" href="main.css">
+<title>All Project</title>
+<style>
+* {box-sizing: border-box}
+body {
+    margin-left: 15%;
+    margin-right: 8%;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 65%;
+  margin-right: 10%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+
+.tab {
+  float: left;
+  border: 2px solid rgb(139, 139, 139);
+  background-color: #f1f1f1;
+  width: 15%;
+  height: 500px;
+}
+
+.tab button {
+  display: block;
+  background: inherit;
+  color: black;
+  padding: 5px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+  text-decoration: underline;
+  color: blue;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: none;
+  width: 69%;
+  border-left: none;
+  height: 500px;
+}
+</style>
+</head>
+<body>
+    <audio controls autoplay hidden="true">
+        <source src="second.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="navbar">
+      <a href="index.html">Home</a>
+      <a href="aboutme.html">About Me</a>
+      <a href="onepage.html">All in One</a>
+    </div>
+    
+    <div class="row">
+        <div class="column" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color: black;">
+            <br><br><br>
+            <h2>All the Updates Anyone need from Me...</h2>
+            <p>Sorted by Months... Will try to add a search feature but till then SIKE!</p>
+            <p>Not Much Will try update thrice a month so lol</p>
+        </div>
+        <div class="column" style="text-align: right;">
+          <br><br><br>
+            <img src="Images/Logo.svg" alt="" width="100px">
+        </div>
+    </div>
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'This_Month')" id="defaultOpen">This Month</button>
+  <button class="tablinks" onclick="openTab(event, 'Prv_Month')">Previous Month</button>
+  <button class="tablinks" onclick="openTab(event, 'Will_Come_Soon')">No More</button>  
+</div>
+
+<div id="This_Month" class="tabcontent">
+    <div class="row" style="margin-left: 10%;">
+        <div class="column" style="color: black;">
+            <hr>
+            <h3 style="font-size: 20px;">Mini Blog #2</h3>
+            I added Dashing to the player controller... and will be again trying to add a search and comment feature...
+            <br>I will do more these Mini-Blog updates
+            <br><a style="float: right;color: black; font-size: 10px;"><i>(13-12-2020)</i></a><br>
+            <hr>
+        </div>
+        <div class="column">
+            <img src="Images/download.png" alt="" width="150%">
+        </div>
+    </div>
+    <div class="row" style="margin-left: 10%;">
+        <div class="column" style="color: black;">
+            <hr>
+            <h3 style="font-size: 20px;">Mini Blog #1</h3>
+            I will try to update you guys whenever possible but i am lazy so probably I wont yea... I am currently working on the improving the player controller lmao
+            <br>I will do more these Mini-Blog updates
+            <br><a style="float: right;color: black; font-size: 10px;"><i>(11-12-2020)</i></a><br>
+            <hr>
+        </div>
+        <div class="column">
+            <img src="Images/download.png" alt="" width="150%">
+        </div>
+    </div>
+    <div class="row" style="margin-left: 10%;">
+        <div class="column" style="color: black;">
+            <hr>
+            <h3 style="font-size: 20px;">2D player Controller</h3>
+            A 2D player Controll Which I made a while a while ago(A year nerd)... Project file are available for download on my Github Page. There is Air resistence when player crouches and jumps at the same time.
+            <br><a href="PlayerController2D.cs">Download Link-1</a>&nbsp;&nbsp;<a href="CrouchCheck.cs">Download Link-2</a>
+            <br><a style="float: right;color: black;font-size: 10px;"><i>(01-12-2020)</i></a><br>
+            <hr>
+        </div>
+        <div class="column">
+            <video src="Project.mp4" width="150%" controls></video>
+        </div>
+    </div>
+</div>
+
+<div id="Prv_Month" class="tabcontent">
+  <h3>Last Month...</h3>
+  <p>Nothing Yet</p> 
+</div>
+
+<div id="Will_Come_Soon" class="tabcontent">
+  <h3>Nope still Nothing...</h3>
+  <p>More of these Tabs will beadded as time moves on...</p>
+</div>
+<script>
+function openTab(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+document.getElementById("defaultOpen").click();
+</script>
+   
+</body>
+</html> 
